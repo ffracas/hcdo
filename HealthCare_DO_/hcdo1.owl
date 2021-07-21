@@ -6,6 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/fra/ontologies/2021/6/hcdo1">
+    <Prefix name="" IRI="http://www.semanticweb.org/fra/ontologies/2021/6/hcdo1"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -172,6 +173,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#GO_0099559"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GO_0099560"/>
     </Declaration>
     <Declaration>
         <Class IRI="#GO_0099561"/>
@@ -375,10 +379,91 @@
         <Class IRI="#GO_0099948"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#GO_0099969"/>
+        <ObjectProperty IRI="#GO_0099530"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#GO_0099970"/>
+        <ObjectProperty IRI="#GO_0099532"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GO_0099533"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GO_0099541"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GO_0099543"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GO_0099564"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GO_0099612"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GO_0099613"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GO_0099620"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GO_0099621"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GO_0099622"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GO_0099623"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GO_0099628"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GO_0099629"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GO_0099636"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GO_0099640"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GO_0099642"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GO_0099677"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GO_0099686"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GO_0099703"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GO_0099712"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GO_0099713"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GO_0099764"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GO_0099812"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GO_0099829"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GO_0099832"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GO_0099833"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GO_0099834"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GO_0099531"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#GO_0099614"/>
@@ -1195,9 +1280,6 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#GO_0099963"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#GO_0099964"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#GO_0099966"/>
@@ -1738,6 +1820,10 @@
         <Class IRI="#GO_0099606"/>
     </DisjointClasses>
     <ClassAssertion>
+        <Class IRI="#GO_0099539"/>
+        <NamedIndividual IRI="#GO_0099531"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099563"/>
         <NamedIndividual IRI="#GO_0099614"/>
     </ClassAssertion>
@@ -2827,10 +2913,6 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099539"/>
-        <NamedIndividual IRI="#GO_0099964"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#GO_0099539"/>
         <NamedIndividual IRI="#GO_0099966"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2841,17 +2923,295 @@
         <Class IRI="#GO_0099948"/>
         <NamedIndividual IRI="#GO_0099968"/>
     </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099533"/>
+        <NamedIndividual IRI="#GO_0099531"/>
+        <NamedIndividual IRI="#GO_0099961"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099533"/>
+        <NamedIndividual IRI="#GO_0099962"/>
+        <NamedIndividual IRI="#GO_0099963"/>
+    </ObjectPropertyAssertion>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#GO_0099969"/>
-        <ObjectProperty IRI="#GO_0099970"/>
+        <ObjectProperty IRI="#GO_0099530"/>
+        <ObjectProperty IRI="#GO_0099764"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#GO_0099532"/>
+        <ObjectProperty IRI="#GO_0099533"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#GO_0099541"/>
+        <ObjectProperty IRI="#GO_0099621"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#GO_0099543"/>
+        <ObjectProperty IRI="#GO_0099713"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#GO_0099564"/>
+        <ObjectProperty IRI="#GO_0099612"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#GO_0099620"/>
+        <ObjectProperty IRI="#GO_0099621"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#GO_0099622"/>
+        <ObjectProperty IRI="#GO_0099636"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#GO_0099623"/>
+        <ObjectProperty IRI="#GO_0099636"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#GO_0099629"/>
+        <ObjectProperty IRI="#GO_0099712"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#GO_0099640"/>
+        <ObjectProperty IRI="#GO_0099642"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#GO_0099829"/>
+        <ObjectProperty IRI="#GO_0099832"/>
     </InverseObjectProperties>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#GO_0099969"/>
+        <ObjectProperty IRI="#GO_0099530"/>
         <Class IRI="#GO_0099539"/>
     </ObjectPropertyDomain>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#GO_0099969"/>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GO_0099541"/>
         <Class IRI="#GO_0099539"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GO_0099543"/>
+        <Class IRI="#GO_0099537"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GO_0099564"/>
+        <Class IRI="#GO_0099560"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GO_0099612"/>
+        <Class IRI="#GO_0099500"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GO_0099613"/>
+        <Class IRI="#GO_0099560"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GO_0099620"/>
+        <Class IRI="#GO_0099538"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GO_0099621"/>
+        <Class IRI="#GO_0099540"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GO_0099622"/>
+        <Class IRI="#GO_0099538"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GO_0099623"/>
+        <Class IRI="#GO_0099500"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GO_0099628"/>
+        <Class IRI="#GO_0099560"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GO_0099629"/>
+        <Class IRI="#GO_0099560"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GO_0099636"/>
+        <Class IRI="#GO_0099914"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GO_0099640"/>
+        <Class IRI="#GO_0099544"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GO_0099640"/>
+        <Class IRI="#GO_0099561"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GO_0099642"/>
+        <Class IRI="#GO_0099535"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GO_0099677"/>
+        <Class IRI="#GO_0099561"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GO_0099686"/>
+        <Class IRI="#GO_0099561"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GO_0099703"/>
+        <Class IRI="#GO_0099561"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GO_0099712"/>
+        <Class IRI="#GO_0099561"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GO_0099713"/>
+        <Class IRI="#GO_0099560"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GO_0099713"/>
+        <Class IRI="#GO_0099948"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GO_0099764"/>
+        <Class IRI="#GO_0099537"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GO_0099812"/>
+        <Class IRI="#GO_0099561"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GO_0099829"/>
+        <Class IRI="#GO_0099561"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GO_0099832"/>
+        <Class IRI="#GO_0099550"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GO_0099833"/>
+        <Class IRI="#GO_0099561"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GO_0099834"/>
+        <Class IRI="#GO_0099544"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099530"/>
+        <Class IRI="#GO_0099537"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099541"/>
+        <Class IRI="#GO_0099540"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099543"/>
+        <Class IRI="#GO_0099560"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099543"/>
+        <Class IRI="#GO_0099948"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099564"/>
+        <Class IRI="#GO_0099500"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099612"/>
+        <Class IRI="#GO_0099560"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099613"/>
+        <Class IRI="#GO_0099538"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099620"/>
+        <Class IRI="#GO_0099540"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099621"/>
+        <Class IRI="#GO_0099538"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099621"/>
+        <Class IRI="#GO_0099539"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099622"/>
+        <Class IRI="#GO_0099914"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099623"/>
+        <Class IRI="#GO_0099914"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099628"/>
+        <Class IRI="#GO_0099512"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099629"/>
+        <Class IRI="#GO_0099561"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099636"/>
+        <Class IRI="#GO_0099500"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099636"/>
+        <Class IRI="#GO_0099538"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099640"/>
+        <Class IRI="#GO_0099535"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099642"/>
+        <Class IRI="#GO_0099544"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099642"/>
+        <Class IRI="#GO_0099561"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099677"/>
+        <Class IRI="#GO_0099544"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099686"/>
+        <Class IRI="#GO_0099512"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099703"/>
+        <Class IRI="#GO_0099512"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099712"/>
+        <Class IRI="#GO_0099536"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099712"/>
+        <Class IRI="#GO_0099560"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099713"/>
+        <Class IRI="#GO_0099537"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099764"/>
+        <Class IRI="#GO_0099539"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099812"/>
+        <Class IRI="#GO_0099527"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099829"/>
+        <Class IRI="#GO_0099550"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099832"/>
+        <Class IRI="#GO_0099561"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099833"/>
+        <Class IRI="#GO_0099501"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099834"/>
+        <Class IRI="#GO_0099512"/>
     </ObjectPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -3155,6 +3515,46 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0099530</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0099530</IRI>
+        <Literal>has_a</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0099531</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0099531</IRI>
+        <Literal>Cosimo_Maniero_RO_90_11</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0099532</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0099532</IRI>
+        <Literal>is_ancestor_of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0099533</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0099533</IRI>
+        <Literal>has_ancestor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
         <IRI>#GO_0099534</IRI>
         <Literal>ffracas</Literal>
     </AnnotationAssertion>
@@ -3225,6 +3625,16 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0099541</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0099541</IRI>
+        <Literal>lives_in</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
         <IRI>#GO_0099542</IRI>
         <Literal>ffracas</Literal>
     </AnnotationAssertion>
@@ -3232,6 +3642,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#GO_0099542</IRI>
         <Literal>incidence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0099543</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0099543</IRI>
+        <Literal>carries_out_an</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -3395,6 +3815,16 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0099560</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0099560</IRI>
+        <Literal>medical_examination</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
         <IRI>#GO_0099561</IRI>
         <Literal>ffracas</Literal>
     </AnnotationAssertion>
@@ -3422,6 +3852,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#GO_0099563</IRI>
         <Literal>heart disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0099564</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0099564</IRI>
+        <Literal>carried_out_by</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -3895,6 +4335,26 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0099612</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0099612</IRI>
+        <Literal>make_a</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0099613</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0099613</IRI>
+        <Literal>hospitalize</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
         <IRI>#GO_0099614</IRI>
         <Literal>ffracas</Literal>
     </AnnotationAssertion>
@@ -3945,6 +4405,46 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0099620</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0099620</IRI>
+        <Literal>located_in</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0099621</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0099621</IRI>
+        <Literal>hosts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0099622</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0099622</IRI>
+        <Literal>has_ward_of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0099623</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0099623</IRI>
+        <Literal>specialized_in</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
         <IRI>#GO_0099624</IRI>
         <Literal>ffracas</Literal>
     </AnnotationAssertion>
@@ -3982,6 +4482,26 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#GO_0099627</IRI>
         <Literal>diabetes_second_type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0099628</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0099628</IRI>
+        <Literal>found_symptoms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0099629</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0099629</IRI>
+        <Literal>has_diagnosis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -4045,6 +4565,16 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0099636</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0099636</IRI>
+        <Literal>is_specialization_of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
         <IRI>#GO_0099637</IRI>
         <Literal>ffracas</Literal>
     </AnnotationAssertion>
@@ -4075,6 +4605,16 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0099640</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0099640</IRI>
+        <Literal>discussed_in</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
         <IRI>#GO_0099641</IRI>
         <Literal>ffracas</Literal>
     </AnnotationAssertion>
@@ -4082,6 +4622,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#GO_0099641</IRI>
         <Literal>Adolescent onset</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0099642</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0099642</IRI>
+        <Literal>Talks_about</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -4395,6 +4945,16 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0099677</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0099677</IRI>
+        <Literal>has_cure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
         <IRI>#GO_0099678</IRI>
         <Literal>ffracas</Literal>
     </AnnotationAssertion>
@@ -4472,6 +5032,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#GO_0099685</IRI>
         <Literal>hypertension</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0099686</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0099686</IRI>
+        <Literal>has_symptom</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -4635,6 +5205,16 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0099703</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0099703</IRI>
+        <Literal>can_have_symptom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
         <IRI>#GO_0099704</IRI>
         <Literal>ffracas</Literal>
     </AnnotationAssertion>
@@ -4712,6 +5292,26 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#GO_0099711</IRI>
         <Literal>Irregular_sleep_habits</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0099712</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0099712</IRI>
+        <Literal>affects</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0099713</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0099713</IRI>
+        <Literal>is_in</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -5215,6 +5815,16 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0099764</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0099764</IRI>
+        <Literal>own_by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
         <IRI>#GO_0099765</IRI>
         <Literal>ffracas</Literal>
     </AnnotationAssertion>
@@ -5685,6 +6295,16 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0099812</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0099812</IRI>
+        <Literal>can_be_passed_on</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
         <IRI>#GO_0099813</IRI>
         <Literal>ffracas</Literal>
     </AnnotationAssertion>
@@ -5835,6 +6455,16 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0099829</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0099829</IRI>
+        <Literal>can_be_caused_by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
         <IRI>#GO_0099830</IRI>
         <Literal>ffracas</Literal>
     </AnnotationAssertion>
@@ -5852,6 +6482,36 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#GO_0099831</IRI>
         <Literal>depression</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0099832</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0099832</IRI>
+        <Literal>cause</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0099833</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0099833</IRI>
+        <Literal>onset</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0099834</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0099834</IRI>
+        <Literal>side_effect</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -6785,16 +7445,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
-        <IRI>#GO_0099964</IRI>
-        <Literal>ffracas</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#GO_0099964</IRI>
-        <Literal>Cosimo_Maniero_90_11</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
         <IRI>#GO_0099966</IRI>
         <Literal>ffracas</Literal>
     </AnnotationAssertion>
@@ -6822,26 +7472,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#GO_0099968</IRI>
         <Literal>blood_analysis</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
-        <IRI>#GO_0099969</IRI>
-        <Literal>ffracas</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#GO_0099969</IRI>
-        <Literal>has_ancestor</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
-        <IRI>#GO_0099970</IRI>
-        <Literal>ffracas</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#GO_0099970</IRI>
-        <Literal>is_ancestor_of</Literal>
     </AnnotationAssertion>
 </Ontology>
 
