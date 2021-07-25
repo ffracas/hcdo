@@ -388,6 +388,12 @@
         <Class IRI="#GO_0099988"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#GO_0099991"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GO_0100001"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#GO_0099530"/>
     </Declaration>
     <Declaration>
@@ -520,6 +526,21 @@
         <ObjectProperty IRI="#GO_0099978"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#GO_0099996"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GO_0099997"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GO_0099998"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GO_0099999"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GO_0100000"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#GO_0099865"/>
     </Declaration>
     <Declaration>
@@ -533,6 +554,9 @@
     </Declaration>
     <Declaration>
         <DataProperty IRI="#GO_0099949"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#GO_0099995"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#GO_0099531"/>
@@ -1424,6 +1448,27 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#GO_0099987"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GO_0099989"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GO_0099992"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GO_0099993"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GO_0100002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GO_0100003"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GO_0100004"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -1558,7 +1603,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GO_0099552"/>
+        <Class IRI="#GO_0099550"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099552"/>
         <Class IRI="#GO_0099551"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099553"/>
+        <Class IRI="#GO_0099550"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GO_0099553"/>
@@ -1594,7 +1647,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GO_0099563"/>
+        <Class IRI="#GO_0099561"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099563"/>
         <Class IRI="#GO_0099562"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099565"/>
+        <Class IRI="#GO_0099561"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GO_0099565"/>
@@ -1610,7 +1671,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GO_0099568"/>
+        <Class IRI="#GO_0099561"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099568"/>
         <Class IRI="#GO_0099567"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099569"/>
+        <Class IRI="#GO_0099561"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GO_0099569"/>
@@ -1618,10 +1687,18 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GO_0099570"/>
+        <Class IRI="#GO_0099561"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099570"/>
         <Class IRI="#GO_0099567"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GO_0099571"/>
+        <Class IRI="#GO_0099561"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099572"/>
         <Class IRI="#GO_0099561"/>
     </SubClassOf>
     <SubClassOf>
@@ -1634,7 +1711,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GO_0099574"/>
+        <Class IRI="#GO_0099561"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099574"/>
         <Class IRI="#GO_0099573"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099575"/>
+        <Class IRI="#GO_0099561"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GO_0099575"/>
@@ -1642,10 +1727,26 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GO_0099576"/>
+        <Class IRI="#GO_0099561"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099576"/>
         <Class IRI="#GO_0099573"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GO_0099577"/>
+        <Class IRI="#GO_0099561"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099577"/>
+        <Class IRI="#GO_0099573"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099578"/>
+        <Class IRI="#GO_0099561"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099578"/>
         <Class IRI="#GO_0099573"/>
     </SubClassOf>
     <SubClassOf>
@@ -1654,10 +1755,22 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GO_0099579"/>
+        <Class IRI="#GO_0099561"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099579"/>
+        <Class IRI="#GO_0099573"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099579"/>
         <Class IRI="#GO_0099577"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GO_0099580"/>
+        <Class IRI="#GO_0099561"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099581"/>
         <Class IRI="#GO_0099561"/>
     </SubClassOf>
     <SubClassOf>
@@ -1674,6 +1787,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GO_0099584"/>
+        <Class IRI="#GO_0099561"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099584"/>
         <Class IRI="#GO_0099583"/>
     </SubClassOf>
     <SubClassOf>
@@ -1682,7 +1799,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GO_0099586"/>
+        <Class IRI="#GO_0099561"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099586"/>
         <Class IRI="#GO_0099585"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099587"/>
+        <Class IRI="#GO_0099561"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GO_0099587"/>
@@ -1694,7 +1819,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GO_0099589"/>
+        <Class IRI="#GO_0099561"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099589"/>
         <Class IRI="#GO_0099588"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099590"/>
+        <Class IRI="#GO_0099561"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GO_0099590"/>
@@ -1702,7 +1835,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GO_0099591"/>
+        <Class IRI="#GO_0099561"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099591"/>
         <Class IRI="#GO_0099588"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099592"/>
+        <Class IRI="#GO_0099561"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GO_0099592"/>
@@ -1714,6 +1855,18 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GO_0099594"/>
+        <Class IRI="#GO_0099561"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099594"/>
+        <Class IRI="#GO_0099593"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099595"/>
+        <Class IRI="#GO_0099561"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099595"/>
         <Class IRI="#GO_0099593"/>
     </SubClassOf>
     <SubClassOf>
@@ -1730,6 +1883,18 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GO_0099598"/>
+        <Class IRI="#GO_0099561"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099598"/>
+        <Class IRI="#GO_0099597"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099599"/>
+        <Class IRI="#GO_0099561"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099599"/>
         <Class IRI="#GO_0099597"/>
     </SubClassOf>
     <SubClassOf>
@@ -1738,7 +1903,19 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GO_0099600"/>
+        <Class IRI="#GO_0099561"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099600"/>
+        <Class IRI="#GO_0099597"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099600"/>
         <Class IRI="#GO_0099598"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099601"/>
+        <Class IRI="#GO_0099561"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GO_0099601"/>
@@ -1746,7 +1923,23 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GO_0099602"/>
+        <Class IRI="#GO_0099561"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099602"/>
+        <Class IRI="#GO_0099597"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099602"/>
         <Class IRI="#GO_0099601"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099603"/>
+        <Class IRI="#GO_0099561"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099603"/>
+        <Class IRI="#GO_0099597"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GO_0099603"/>
@@ -1758,7 +1951,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GO_0099605"/>
+        <Class IRI="#GO_0099561"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099605"/>
         <Class IRI="#GO_0099604"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099606"/>
+        <Class IRI="#GO_0099561"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GO_0099606"/>
@@ -1778,7 +1979,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GO_0099610"/>
+        <Class IRI="#GO_0099561"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099610"/>
         <Class IRI="#GO_0099609"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099611"/>
+        <Class IRI="#GO_0099561"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GO_0099611"/>
@@ -1787,6 +1996,10 @@
     <SubClassOf>
         <Class IRI="#GO_0099624"/>
         <Class IRI="#GO_0099501"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099625"/>
+        <Class IRI="#GO_0099561"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GO_0099625"/>
@@ -1799,6 +2012,10 @@
     <SubClassOf>
         <Class IRI="#GO_0099651"/>
         <Class IRI="#GO_0099501"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099830"/>
+        <Class IRI="#GO_0099561"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GO_0099830"/>
@@ -1834,7 +2051,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GO_0099932"/>
+        <Class IRI="#GO_0099561"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099932"/>
         <Class IRI="#GO_0099931"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099933"/>
+        <Class IRI="#GO_0099561"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GO_0099933"/>
@@ -1842,7 +2067,19 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GO_0099934"/>
+        <Class IRI="#GO_0099561"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099934"/>
         <Class IRI="#GO_0099931"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0099991"/>
+        <Class IRI="#GO_0099975"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0100001"/>
+        <Class IRI="#GO_0099892"/>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="#GO_0099500"/>
@@ -2003,312 +2240,708 @@
         <NamedIndividual IRI="#GO_0099531"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099561"/>
+        <NamedIndividual IRI="#GO_0099614"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099562"/>
+        <NamedIndividual IRI="#GO_0099614"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099563"/>
         <NamedIndividual IRI="#GO_0099614"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099561"/>
+        <NamedIndividual IRI="#GO_0099615"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099597"/>
+        <NamedIndividual IRI="#GO_0099615"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099601"/>
+        <NamedIndividual IRI="#GO_0099615"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099603"/>
         <NamedIndividual IRI="#GO_0099615"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099561"/>
+        <NamedIndividual IRI="#GO_0099616"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099597"/>
+        <NamedIndividual IRI="#GO_0099616"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099601"/>
+        <NamedIndividual IRI="#GO_0099616"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099603"/>
         <NamedIndividual IRI="#GO_0099616"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099561"/>
+        <NamedIndividual IRI="#GO_0099617"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099562"/>
+        <NamedIndividual IRI="#GO_0099617"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099565"/>
         <NamedIndividual IRI="#GO_0099617"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099501"/>
+        <NamedIndividual IRI="#GO_0099618"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099503"/>
         <NamedIndividual IRI="#GO_0099618"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099561"/>
+        <NamedIndividual IRI="#GO_0099626"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099585"/>
+        <NamedIndividual IRI="#GO_0099626"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099625"/>
         <NamedIndividual IRI="#GO_0099626"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099561"/>
+        <NamedIndividual IRI="#GO_0099627"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099585"/>
+        <NamedIndividual IRI="#GO_0099627"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099625"/>
         <NamedIndividual IRI="#GO_0099627"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099501"/>
+        <NamedIndividual IRI="#GO_0099630"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099624"/>
         <NamedIndividual IRI="#GO_0099630"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099501"/>
+        <NamedIndividual IRI="#GO_0099631"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099624"/>
         <NamedIndividual IRI="#GO_0099631"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099501"/>
+        <NamedIndividual IRI="#GO_0099632"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099504"/>
         <NamedIndividual IRI="#GO_0099632"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099501"/>
+        <NamedIndividual IRI="#GO_0099633"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099505"/>
         <NamedIndividual IRI="#GO_0099633"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099501"/>
+        <NamedIndividual IRI="#GO_0099634"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099506"/>
         <NamedIndividual IRI="#GO_0099634"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099501"/>
+        <NamedIndividual IRI="#GO_0099635"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099506"/>
         <NamedIndividual IRI="#GO_0099635"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099501"/>
+        <NamedIndividual IRI="#GO_0099637"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099506"/>
         <NamedIndividual IRI="#GO_0099637"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099501"/>
+        <NamedIndividual IRI="#GO_0099638"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099624"/>
         <NamedIndividual IRI="#GO_0099638"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099501"/>
+        <NamedIndividual IRI="#GO_0099639"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099624"/>
         <NamedIndividual IRI="#GO_0099639"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099501"/>
+        <NamedIndividual IRI="#GO_0099643"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099641"/>
         <NamedIndividual IRI="#GO_0099643"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099501"/>
+        <NamedIndividual IRI="#GO_0099644"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099641"/>
         <NamedIndividual IRI="#GO_0099644"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099501"/>
+        <NamedIndividual IRI="#GO_0099645"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099641"/>
         <NamedIndividual IRI="#GO_0099645"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099501"/>
+        <NamedIndividual IRI="#GO_0099646"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099502"/>
         <NamedIndividual IRI="#GO_0099646"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099501"/>
+        <NamedIndividual IRI="#GO_0099647"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099502"/>
         <NamedIndividual IRI="#GO_0099647"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099501"/>
+        <NamedIndividual IRI="#GO_0099648"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099502"/>
         <NamedIndividual IRI="#GO_0099648"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099501"/>
+        <NamedIndividual IRI="#GO_0099649"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099502"/>
         <NamedIndividual IRI="#GO_0099649"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099501"/>
+        <NamedIndividual IRI="#GO_0099650"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099502"/>
         <NamedIndividual IRI="#GO_0099650"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099501"/>
+        <NamedIndividual IRI="#GO_0099652"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099651"/>
         <NamedIndividual IRI="#GO_0099652"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099501"/>
+        <NamedIndividual IRI="#GO_0099653"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099651"/>
         <NamedIndividual IRI="#GO_0099653"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099501"/>
+        <NamedIndividual IRI="#GO_0099654"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099651"/>
         <NamedIndividual IRI="#GO_0099654"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099561"/>
+        <NamedIndividual IRI="#GO_0099655"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099562"/>
+        <NamedIndividual IRI="#GO_0099655"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099563"/>
         <NamedIndividual IRI="#GO_0099655"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099561"/>
+        <NamedIndividual IRI="#GO_0099657"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099562"/>
+        <NamedIndividual IRI="#GO_0099657"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099565"/>
         <NamedIndividual IRI="#GO_0099657"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099561"/>
+        <NamedIndividual IRI="#GO_0099658"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099562"/>
+        <NamedIndividual IRI="#GO_0099658"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099565"/>
         <NamedIndividual IRI="#GO_0099658"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099561"/>
+        <NamedIndividual IRI="#GO_0099659"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099585"/>
+        <NamedIndividual IRI="#GO_0099659"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099586"/>
         <NamedIndividual IRI="#GO_0099659"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099561"/>
+        <NamedIndividual IRI="#GO_0099660"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099585"/>
+        <NamedIndividual IRI="#GO_0099660"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099586"/>
         <NamedIndividual IRI="#GO_0099660"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099561"/>
+        <NamedIndividual IRI="#GO_0099661"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099585"/>
+        <NamedIndividual IRI="#GO_0099661"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099586"/>
         <NamedIndividual IRI="#GO_0099661"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099561"/>
+        <NamedIndividual IRI="#GO_0099662"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099585"/>
+        <NamedIndividual IRI="#GO_0099662"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099586"/>
         <NamedIndividual IRI="#GO_0099662"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099561"/>
+        <NamedIndividual IRI="#GO_0099663"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099585"/>
+        <NamedIndividual IRI="#GO_0099663"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099586"/>
         <NamedIndividual IRI="#GO_0099663"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099561"/>
+        <NamedIndividual IRI="#GO_0099664"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099596"/>
         <NamedIndividual IRI="#GO_0099664"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099561"/>
+        <NamedIndividual IRI="#GO_0099665"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099596"/>
         <NamedIndividual IRI="#GO_0099665"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099561"/>
+        <NamedIndividual IRI="#GO_0099666"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099604"/>
+        <NamedIndividual IRI="#GO_0099666"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099606"/>
         <NamedIndividual IRI="#GO_0099666"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099561"/>
+        <NamedIndividual IRI="#GO_0099667"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099573"/>
+        <NamedIndividual IRI="#GO_0099667"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099575"/>
         <NamedIndividual IRI="#GO_0099667"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099561"/>
+        <NamedIndividual IRI="#GO_0099668"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099567"/>
+        <NamedIndividual IRI="#GO_0099668"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099569"/>
         <NamedIndividual IRI="#GO_0099668"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099561"/>
+        <NamedIndividual IRI="#GO_0099669"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099567"/>
+        <NamedIndividual IRI="#GO_0099669"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099568"/>
         <NamedIndividual IRI="#GO_0099669"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099512"/>
+        <NamedIndividual IRI="#GO_0099671"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099513"/>
         <NamedIndividual IRI="#GO_0099671"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099512"/>
+        <NamedIndividual IRI="#GO_0099672"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099526"/>
         <NamedIndividual IRI="#GO_0099672"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099512"/>
+        <NamedIndividual IRI="#GO_0099673"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099515"/>
         <NamedIndividual IRI="#GO_0099673"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099512"/>
+        <NamedIndividual IRI="#GO_0099676"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099516"/>
         <NamedIndividual IRI="#GO_0099676"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099512"/>
+        <NamedIndividual IRI="#GO_0099678"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099519"/>
         <NamedIndividual IRI="#GO_0099678"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099512"/>
+        <NamedIndividual IRI="#GO_0099679"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099522"/>
         <NamedIndividual IRI="#GO_0099679"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099512"/>
+        <NamedIndividual IRI="#GO_0099680"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099522"/>
         <NamedIndividual IRI="#GO_0099680"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099512"/>
+        <NamedIndividual IRI="#GO_0099681"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099516"/>
         <NamedIndividual IRI="#GO_0099681"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099512"/>
+        <NamedIndividual IRI="#GO_0099682"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099521"/>
         <NamedIndividual IRI="#GO_0099682"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099512"/>
+        <NamedIndividual IRI="#GO_0099683"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099522"/>
         <NamedIndividual IRI="#GO_0099683"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099512"/>
+        <NamedIndividual IRI="#GO_0099684"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099518"/>
         <NamedIndividual IRI="#GO_0099684"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099512"/>
+        <NamedIndividual IRI="#GO_0099685"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099522"/>
         <NamedIndividual IRI="#GO_0099685"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099512"/>
+        <NamedIndividual IRI="#GO_0099687"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099517"/>
         <NamedIndividual IRI="#GO_0099687"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099512"/>
+        <NamedIndividual IRI="#GO_0099688"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099514"/>
         <NamedIndividual IRI="#GO_0099688"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099512"/>
+        <NamedIndividual IRI="#GO_0099689"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099519"/>
         <NamedIndividual IRI="#GO_0099689"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099512"/>
+        <NamedIndividual IRI="#GO_0099690"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099514"/>
         <NamedIndividual IRI="#GO_0099690"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099512"/>
+        <NamedIndividual IRI="#GO_0099691"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099514"/>
         <NamedIndividual IRI="#GO_0099691"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099512"/>
+        <NamedIndividual IRI="#GO_0099692"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099524"/>
         <NamedIndividual IRI="#GO_0099692"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099512"/>
+        <NamedIndividual IRI="#GO_0099693"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099516"/>
         <NamedIndividual IRI="#GO_0099693"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099512"/>
+        <NamedIndividual IRI="#GO_0099694"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099519"/>
         <NamedIndividual IRI="#GO_0099694"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099512"/>
+        <NamedIndividual IRI="#GO_0099695"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099519"/>
         <NamedIndividual IRI="#GO_0099695"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099512"/>
+        <NamedIndividual IRI="#GO_0099696"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099519"/>
         <NamedIndividual IRI="#GO_0099696"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099512"/>
+        <NamedIndividual IRI="#GO_0099697"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099516"/>
         <NamedIndividual IRI="#GO_0099697"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099512"/>
+        <NamedIndividual IRI="#GO_0099698"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099515"/>
         <NamedIndividual IRI="#GO_0099698"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099512"/>
+        <NamedIndividual IRI="#GO_0099699"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099519"/>
         <NamedIndividual IRI="#GO_0099699"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099512"/>
+        <NamedIndividual IRI="#GO_0099700"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099516"/>
         <NamedIndividual IRI="#GO_0099700"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099512"/>
+        <NamedIndividual IRI="#GO_0099701"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099524"/>
         <NamedIndividual IRI="#GO_0099701"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099512"/>
+        <NamedIndividual IRI="#GO_0099702"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099522"/>
         <NamedIndividual IRI="#GO_0099702"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099512"/>
+        <NamedIndividual IRI="#GO_0099704"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099517"/>
         <NamedIndividual IRI="#GO_0099704"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099512"/>
+        <NamedIndividual IRI="#GO_0099705"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099524"/>
         <NamedIndividual IRI="#GO_0099705"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099512"/>
+        <NamedIndividual IRI="#GO_0099706"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099524"/>
         <NamedIndividual IRI="#GO_0099706"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099512"/>
+        <NamedIndividual IRI="#GO_0099707"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099525"/>
         <NamedIndividual IRI="#GO_0099707"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099512"/>
+        <NamedIndividual IRI="#GO_0099708"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099517"/>
         <NamedIndividual IRI="#GO_0099708"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099512"/>
+        <NamedIndividual IRI="#GO_0099709"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099524"/>
         <NamedIndividual IRI="#GO_0099709"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099512"/>
+        <NamedIndividual IRI="#GO_0099710"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099524"/>
         <NamedIndividual IRI="#GO_0099710"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099512"/>
+        <NamedIndividual IRI="#GO_0099711"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099522"/>
         <NamedIndividual IRI="#GO_0099711"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099561"/>
+        <NamedIndividual IRI="#GO_0099714"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099573"/>
+        <NamedIndividual IRI="#GO_0099714"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099576"/>
@@ -2743,20 +3376,44 @@
         <NamedIndividual IRI="#GO_0099824"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099550"/>
+        <NamedIndividual IRI="#GO_0099825"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099555"/>
         <NamedIndividual IRI="#GO_0099825"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099550"/>
+        <NamedIndividual IRI="#GO_0099826"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099555"/>
         <NamedIndividual IRI="#GO_0099826"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#GO_0099555"/>
+        <Class IRI="#GO_0099550"/>
         <NamedIndividual IRI="#GO_0099827"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099555"/>
+        <NamedIndividual IRI="#GO_0099827"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099550"/>
         <NamedIndividual IRI="#GO_0099828"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099555"/>
+        <NamedIndividual IRI="#GO_0099828"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099561"/>
+        <NamedIndividual IRI="#GO_0099831"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099593"/>
+        <NamedIndividual IRI="#GO_0099831"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099830"/>
@@ -2771,12 +3428,24 @@
         <NamedIndividual IRI="#GO_0099838"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#GO_0099557"/>
+        <Class IRI="#GO_0099550"/>
         <NamedIndividual IRI="#GO_0099839"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099557"/>
+        <NamedIndividual IRI="#GO_0099839"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099550"/>
         <NamedIndividual IRI="#GO_0099840"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099557"/>
+        <NamedIndividual IRI="#GO_0099840"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099550"/>
+        <NamedIndividual IRI="#GO_0099841"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099558"/>
@@ -2787,40 +3456,80 @@
         <NamedIndividual IRI="#GO_0099842"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099550"/>
+        <NamedIndividual IRI="#GO_0099843"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099558"/>
         <NamedIndividual IRI="#GO_0099843"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099550"/>
+        <NamedIndividual IRI="#GO_0099844"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099559"/>
         <NamedIndividual IRI="#GO_0099844"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099550"/>
+        <NamedIndividual IRI="#GO_0099845"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099559"/>
         <NamedIndividual IRI="#GO_0099845"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099550"/>
+        <NamedIndividual IRI="#GO_0099848"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099559"/>
         <NamedIndividual IRI="#GO_0099848"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099550"/>
+        <NamedIndividual IRI="#GO_0099849"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099559"/>
         <NamedIndividual IRI="#GO_0099849"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099550"/>
+        <NamedIndividual IRI="#GO_0099850"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099559"/>
         <NamedIndividual IRI="#GO_0099850"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099550"/>
+        <NamedIndividual IRI="#GO_0099851"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099559"/>
         <NamedIndividual IRI="#GO_0099851"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099550"/>
+        <NamedIndividual IRI="#GO_0099852"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099557"/>
         <NamedIndividual IRI="#GO_0099852"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099550"/>
+        <NamedIndividual IRI="#GO_0099853"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099554"/>
         <NamedIndividual IRI="#GO_0099853"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099550"/>
+        <NamedIndividual IRI="#GO_0099854"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099554"/>
@@ -2867,60 +3576,124 @@
         <NamedIndividual IRI="#GO_0099864"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099527"/>
+        <NamedIndividual IRI="#GO_0099868"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099528"/>
         <NamedIndividual IRI="#GO_0099868"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099527"/>
+        <NamedIndividual IRI="#GO_0099869"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099528"/>
         <NamedIndividual IRI="#GO_0099869"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099527"/>
+        <NamedIndividual IRI="#GO_0099870"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099528"/>
         <NamedIndividual IRI="#GO_0099870"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099527"/>
+        <NamedIndividual IRI="#GO_0099872"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099528"/>
         <NamedIndividual IRI="#GO_0099872"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099527"/>
+        <NamedIndividual IRI="#GO_0099873"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099528"/>
         <NamedIndividual IRI="#GO_0099873"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099561"/>
+        <NamedIndividual IRI="#GO_0099874"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099562"/>
+        <NamedIndividual IRI="#GO_0099874"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099563"/>
         <NamedIndividual IRI="#GO_0099874"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099527"/>
+        <NamedIndividual IRI="#GO_0099875"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099534"/>
         <NamedIndividual IRI="#GO_0099875"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099527"/>
+        <NamedIndividual IRI="#GO_0099876"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099534"/>
         <NamedIndividual IRI="#GO_0099876"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099527"/>
+        <NamedIndividual IRI="#GO_0099877"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099534"/>
         <NamedIndividual IRI="#GO_0099877"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099512"/>
+        <NamedIndividual IRI="#GO_0099878"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099514"/>
         <NamedIndividual IRI="#GO_0099878"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099512"/>
+        <NamedIndividual IRI="#GO_0099879"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099514"/>
         <NamedIndividual IRI="#GO_0099879"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099527"/>
+        <NamedIndividual IRI="#GO_0099880"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099529"/>
         <NamedIndividual IRI="#GO_0099880"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#GO_0099529"/>
+        <Class IRI="#GO_0099527"/>
         <NamedIndividual IRI="#GO_0099881"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099529"/>
+        <NamedIndividual IRI="#GO_0099881"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099527"/>
         <NamedIndividual IRI="#GO_0099882"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099529"/>
+        <NamedIndividual IRI="#GO_0099882"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099527"/>
+        <NamedIndividual IRI="#GO_0099883"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099529"/>
@@ -2959,56 +3732,116 @@
         <NamedIndividual IRI="#GO_0099891"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099561"/>
+        <NamedIndividual IRI="#GO_0099896"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099580"/>
+        <NamedIndividual IRI="#GO_0099896"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099581"/>
         <NamedIndividual IRI="#GO_0099896"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099892"/>
+        <NamedIndividual IRI="#GO_0099902"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099901"/>
         <NamedIndividual IRI="#GO_0099902"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099892"/>
+        <NamedIndividual IRI="#GO_0099903"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099901"/>
         <NamedIndividual IRI="#GO_0099903"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099512"/>
+        <NamedIndividual IRI="#GO_0099904"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099521"/>
         <NamedIndividual IRI="#GO_0099904"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099892"/>
+        <NamedIndividual IRI="#GO_0099905"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099900"/>
         <NamedIndividual IRI="#GO_0099905"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099892"/>
+        <NamedIndividual IRI="#GO_0099906"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099900"/>
         <NamedIndividual IRI="#GO_0099906"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099892"/>
+        <NamedIndividual IRI="#GO_0099907"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099899"/>
         <NamedIndividual IRI="#GO_0099907"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099892"/>
+        <NamedIndividual IRI="#GO_0099908"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099899"/>
         <NamedIndividual IRI="#GO_0099908"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099892"/>
+        <NamedIndividual IRI="#GO_0099909"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099898"/>
         <NamedIndividual IRI="#GO_0099909"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099892"/>
+        <NamedIndividual IRI="#GO_0099910"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099898"/>
         <NamedIndividual IRI="#GO_0099910"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099892"/>
+        <NamedIndividual IRI="#GO_0099911"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099897"/>
         <NamedIndividual IRI="#GO_0099911"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099892"/>
+        <NamedIndividual IRI="#GO_0099912"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099897"/>
         <NamedIndividual IRI="#GO_0099912"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099512"/>
+        <NamedIndividual IRI="#GO_0099913"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099519"/>
         <NamedIndividual IRI="#GO_0099913"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099512"/>
+        <NamedIndividual IRI="#GO_0099915"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099518"/>
@@ -3017,6 +3850,10 @@
     <ClassAssertion>
         <Class IRI="#GO_0099536"/>
         <NamedIndividual IRI="#GO_0099917"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099892"/>
+        <NamedIndividual IRI="#GO_0099921"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099920"/>
@@ -3043,12 +3880,36 @@
         <NamedIndividual IRI="#GO_0099930"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#GO_0099934"/>
+        <Class IRI="#GO_0099561"/>
+        <NamedIndividual IRI="#GO_0099935"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099931"/>
         <NamedIndividual IRI="#GO_0099935"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099934"/>
+        <NamedIndividual IRI="#GO_0099935"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099561"/>
         <NamedIndividual IRI="#GO_0099936"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099931"/>
+        <NamedIndividual IRI="#GO_0099936"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099934"/>
+        <NamedIndividual IRI="#GO_0099936"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099561"/>
+        <NamedIndividual IRI="#GO_0099938"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099931"/>
+        <NamedIndividual IRI="#GO_0099938"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099932"/>
@@ -3115,6 +3976,10 @@
         <NamedIndividual IRI="#GO_0099963"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099544"/>
+        <NamedIndividual IRI="#GO_0099965"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099549"/>
         <NamedIndividual IRI="#GO_0099965"/>
     </ClassAssertion>
@@ -3131,24 +3996,48 @@
         <NamedIndividual IRI="#GO_0099968"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099544"/>
+        <NamedIndividual IRI="#GO_0099969"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099549"/>
         <NamedIndividual IRI="#GO_0099969"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099544"/>
+        <NamedIndividual IRI="#GO_0099970"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099547"/>
         <NamedIndividual IRI="#GO_0099970"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099544"/>
+        <NamedIndividual IRI="#GO_0099972"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099547"/>
         <NamedIndividual IRI="#GO_0099972"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099544"/>
+        <NamedIndividual IRI="#GO_0099973"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099545"/>
         <NamedIndividual IRI="#GO_0099973"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099544"/>
+        <NamedIndividual IRI="#GO_0099974"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099546"/>
         <NamedIndividual IRI="#GO_0099974"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099544"/>
+        <NamedIndividual IRI="#GO_0099979"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099545"/>
@@ -3186,6 +4075,51 @@
         <Class IRI="#GO_0099537"/>
         <NamedIndividual IRI="#GO_0099987"/>
     </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099560"/>
+        <NamedIndividual IRI="#GO_0099989"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099975"/>
+        <NamedIndividual IRI="#GO_0099992"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099991"/>
+        <NamedIndividual IRI="#GO_0099992"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099948"/>
+        <NamedIndividual IRI="#GO_0099993"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099892"/>
+        <NamedIndividual IRI="#GO_0100002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0100001"/>
+        <NamedIndividual IRI="#GO_0100002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099892"/>
+        <NamedIndividual IRI="#GO_0100003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0100001"/>
+        <NamedIndividual IRI="#GO_0100003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099544"/>
+        <NamedIndividual IRI="#GO_0100004"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099545"/>
+        <NamedIndividual IRI="#GO_0100004"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099530"/>
+        <NamedIndividual IRI="#GO_0099531"/>
+        <NamedIndividual IRI="#GO_0099980"/>
+    </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099533"/>
         <NamedIndividual IRI="#GO_0099531"/>
@@ -3402,9 +4336,114 @@
         <NamedIndividual IRI="#GO_0099806"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099621"/>
+        <NamedIndividual IRI="#GO_0099724"/>
+        <NamedIndividual IRI="#GO_0099862"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099836"/>
+        <NamedIndividual IRI="#GO_0099724"/>
+        <NamedIndividual IRI="#GO_0099962"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099836"/>
+        <NamedIndividual IRI="#GO_0099724"/>
+        <NamedIndividual IRI="#GO_0099963"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099621"/>
+        <NamedIndividual IRI="#GO_0099728"/>
+        <NamedIndividual IRI="#GO_0099890"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099621"/>
+        <NamedIndividual IRI="#GO_0099729"/>
+        <NamedIndividual IRI="#GO_0099887"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099621"/>
+        <NamedIndividual IRI="#GO_0099773"/>
+        <NamedIndividual IRI="#GO_0099888"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099836"/>
+        <NamedIndividual IRI="#GO_0099778"/>
+        <NamedIndividual IRI="#GO_0099838"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099621"/>
+        <NamedIndividual IRI="#GO_0099785"/>
+        <NamedIndividual IRI="#GO_0099864"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099836"/>
+        <NamedIndividual IRI="#GO_0099785"/>
+        <NamedIndividual IRI="#GO_0099531"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099836"/>
+        <NamedIndividual IRI="#GO_0099785"/>
+        <NamedIndividual IRI="#GO_0099959"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099836"/>
+        <NamedIndividual IRI="#GO_0099785"/>
+        <NamedIndividual IRI="#GO_0099961"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099621"/>
+        <NamedIndividual IRI="#GO_0099791"/>
+        <NamedIndividual IRI="#GO_0099863"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099621"/>
+        <NamedIndividual IRI="#GO_0099795"/>
+        <NamedIndividual IRI="#GO_0099889"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099621"/>
+        <NamedIndividual IRI="#GO_0099835"/>
+        <NamedIndividual IRI="#GO_0099891"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099836"/>
+        <NamedIndividual IRI="#GO_0099835"/>
+        <NamedIndividual IRI="#GO_0099966"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099836"/>
+        <NamedIndividual IRI="#GO_0099835"/>
+        <NamedIndividual IRI="#GO_0099967"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099530"/>
+        <NamedIndividual IRI="#GO_0099838"/>
+        <NamedIndividual IRI="#GO_0099985"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099541"/>
         <NamedIndividual IRI="#GO_0099838"/>
         <NamedIndividual IRI="#GO_0099778"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099636"/>
+        <NamedIndividual IRI="#GO_0099842"/>
+        <NamedIndividual IRI="#GO_0099861"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099837"/>
+        <NamedIndividual IRI="#GO_0099842"/>
+        <NamedIndividual IRI="#GO_0099891"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099636"/>
+        <NamedIndividual IRI="#GO_0099855"/>
+        <NamedIndividual IRI="#GO_0099856"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099837"/>
+        <NamedIndividual IRI="#GO_0099855"/>
+        <NamedIndividual IRI="#GO_0099864"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099623"/>
@@ -3412,9 +4451,19 @@
         <NamedIndividual IRI="#GO_0099855"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099846"/>
+        <NamedIndividual IRI="#GO_0099856"/>
+        <NamedIndividual IRI="#GO_0099864"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099623"/>
         <NamedIndividual IRI="#GO_0099857"/>
         <NamedIndividual IRI="#GO_0099927"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099846"/>
+        <NamedIndividual IRI="#GO_0099857"/>
+        <NamedIndividual IRI="#GO_0099862"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099623"/>
@@ -3422,9 +4471,19 @@
         <NamedIndividual IRI="#GO_0099928"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099846"/>
+        <NamedIndividual IRI="#GO_0099858"/>
+        <NamedIndividual IRI="#GO_0099863"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099623"/>
         <NamedIndividual IRI="#GO_0099859"/>
         <NamedIndividual IRI="#GO_0099953"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099846"/>
+        <NamedIndividual IRI="#GO_0099859"/>
+        <NamedIndividual IRI="#GO_0099887"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099623"/>
@@ -3437,9 +4496,24 @@
         <NamedIndividual IRI="#GO_0099842"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099846"/>
+        <NamedIndividual IRI="#GO_0099861"/>
+        <NamedIndividual IRI="#GO_0099891"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099620"/>
         <NamedIndividual IRI="#GO_0099862"/>
         <NamedIndividual IRI="#GO_0099724"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099622"/>
+        <NamedIndividual IRI="#GO_0099862"/>
+        <NamedIndividual IRI="#GO_0099927"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099847"/>
+        <NamedIndividual IRI="#GO_0099862"/>
+        <NamedIndividual IRI="#GO_0099857"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099620"/>
@@ -3447,9 +4521,29 @@
         <NamedIndividual IRI="#GO_0099791"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099622"/>
+        <NamedIndividual IRI="#GO_0099863"/>
+        <NamedIndividual IRI="#GO_0099928"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099847"/>
+        <NamedIndividual IRI="#GO_0099863"/>
+        <NamedIndividual IRI="#GO_0099858"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099620"/>
         <NamedIndividual IRI="#GO_0099864"/>
         <NamedIndividual IRI="#GO_0099785"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099622"/>
+        <NamedIndividual IRI="#GO_0099864"/>
+        <NamedIndividual IRI="#GO_0099855"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099847"/>
+        <NamedIndividual IRI="#GO_0099864"/>
+        <NamedIndividual IRI="#GO_0099856"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099686"/>
@@ -3502,9 +4596,49 @@
         <NamedIndividual IRI="#GO_0099654"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099950"/>
+        <NamedIndividual IRI="#GO_0099874"/>
+        <NamedIndividual IRI="#GO_0099965"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099950"/>
+        <NamedIndividual IRI="#GO_0099874"/>
+        <NamedIndividual IRI="#GO_0099969"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099950"/>
+        <NamedIndividual IRI="#GO_0099874"/>
+        <NamedIndividual IRI="#GO_0100004"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099952"/>
+        <NamedIndividual IRI="#GO_0099874"/>
+        <NamedIndividual IRI="#GO_0100004"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099964"/>
+        <NamedIndividual IRI="#GO_0099874"/>
+        <NamedIndividual IRI="#GO_0099965"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099964"/>
+        <NamedIndividual IRI="#GO_0099874"/>
+        <NamedIndividual IRI="#GO_0099969"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099620"/>
         <NamedIndividual IRI="#GO_0099887"/>
         <NamedIndividual IRI="#GO_0099729"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099622"/>
+        <NamedIndividual IRI="#GO_0099887"/>
+        <NamedIndividual IRI="#GO_0099953"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099847"/>
+        <NamedIndividual IRI="#GO_0099887"/>
+        <NamedIndividual IRI="#GO_0099859"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099620"/>
@@ -3525,6 +4659,16 @@
         <ObjectProperty IRI="#GO_0099620"/>
         <NamedIndividual IRI="#GO_0099891"/>
         <NamedIndividual IRI="#GO_0099835"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099622"/>
+        <NamedIndividual IRI="#GO_0099891"/>
+        <NamedIndividual IRI="#GO_0099842"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099847"/>
+        <NamedIndividual IRI="#GO_0099891"/>
+        <NamedIndividual IRI="#GO_0099861"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099686"/>
@@ -3562,9 +4706,59 @@
         <NamedIndividual IRI="#GO_0099632"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099636"/>
+        <NamedIndividual IRI="#GO_0099926"/>
+        <NamedIndividual IRI="#GO_0099860"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099636"/>
+        <NamedIndividual IRI="#GO_0099927"/>
+        <NamedIndividual IRI="#GO_0099857"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099837"/>
+        <NamedIndividual IRI="#GO_0099927"/>
+        <NamedIndividual IRI="#GO_0099862"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099636"/>
+        <NamedIndividual IRI="#GO_0099928"/>
+        <NamedIndividual IRI="#GO_0099858"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099837"/>
+        <NamedIndividual IRI="#GO_0099928"/>
+        <NamedIndividual IRI="#GO_0099863"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099636"/>
+        <NamedIndividual IRI="#GO_0099953"/>
+        <NamedIndividual IRI="#GO_0099859"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099837"/>
+        <NamedIndividual IRI="#GO_0099953"/>
+        <NamedIndividual IRI="#GO_0099887"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099530"/>
+        <NamedIndividual IRI="#GO_0099959"/>
+        <NamedIndividual IRI="#GO_0099982"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099541"/>
         <NamedIndividual IRI="#GO_0099959"/>
         <NamedIndividual IRI="#GO_0099785"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099530"/>
+        <NamedIndividual IRI="#GO_0099961"/>
+        <NamedIndividual IRI="#GO_0099983"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099532"/>
+        <NamedIndividual IRI="#GO_0099961"/>
+        <NamedIndividual IRI="#GO_0099531"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099541"/>
@@ -3572,6 +4766,11 @@
         <NamedIndividual IRI="#GO_0099785"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099530"/>
+        <NamedIndividual IRI="#GO_0099962"/>
+        <NamedIndividual IRI="#GO_0099984"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099533"/>
         <NamedIndividual IRI="#GO_0099962"/>
         <NamedIndividual IRI="#GO_0099963"/>
@@ -3582,14 +4781,44 @@
         <NamedIndividual IRI="#GO_0099724"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099530"/>
+        <NamedIndividual IRI="#GO_0099963"/>
+        <NamedIndividual IRI="#GO_0099986"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099532"/>
+        <NamedIndividual IRI="#GO_0099963"/>
+        <NamedIndividual IRI="#GO_0099962"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099541"/>
         <NamedIndividual IRI="#GO_0099963"/>
         <NamedIndividual IRI="#GO_0099724"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099998"/>
+        <NamedIndividual IRI="#GO_0099965"/>
+        <NamedIndividual IRI="#GO_0099874"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099530"/>
+        <NamedIndividual IRI="#GO_0099966"/>
+        <NamedIndividual IRI="#GO_0099981"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099532"/>
+        <NamedIndividual IRI="#GO_0099966"/>
+        <NamedIndividual IRI="#GO_0099967"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099541"/>
         <NamedIndividual IRI="#GO_0099966"/>
         <NamedIndividual IRI="#GO_0099835"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099530"/>
+        <NamedIndividual IRI="#GO_0099967"/>
+        <NamedIndividual IRI="#GO_0099987"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099533"/>
@@ -3600,6 +4829,11 @@
         <ObjectProperty IRI="#GO_0099541"/>
         <NamedIndividual IRI="#GO_0099967"/>
         <NamedIndividual IRI="#GO_0099835"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099998"/>
+        <NamedIndividual IRI="#GO_0099969"/>
+        <NamedIndividual IRI="#GO_0099874"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099978"/>
@@ -3647,10 +4881,70 @@
         <NamedIndividual IRI="#GO_0099963"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099543"/>
+        <NamedIndividual IRI="#GO_0099987"/>
+        <NamedIndividual IRI="#GO_0099989"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099764"/>
         <NamedIndividual IRI="#GO_0099987"/>
         <NamedIndividual IRI="#GO_0099967"/>
     </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099713"/>
+        <NamedIndividual IRI="#GO_0099989"/>
+        <NamedIndividual IRI="#GO_0099987"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099976"/>
+        <NamedIndividual IRI="#GO_0099989"/>
+        <NamedIndividual IRI="#GO_0099992"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099977"/>
+        <NamedIndividual IRI="#GO_0099992"/>
+        <NamedIndividual IRI="#GO_0099993"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099978"/>
+        <NamedIndividual IRI="#GO_0100004"/>
+        <NamedIndividual IRI="#GO_0100003"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099998"/>
+        <NamedIndividual IRI="#GO_0100004"/>
+        <NamedIndividual IRI="#GO_0099874"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GO_0099995"/>
+        <NamedIndividual IRI="#GO_0099856"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GO_0099995"/>
+        <NamedIndividual IRI="#GO_0099857"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GO_0099995"/>
+        <NamedIndividual IRI="#GO_0099858"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GO_0099995"/>
+        <NamedIndividual IRI="#GO_0099859"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GO_0099995"/>
+        <NamedIndividual IRI="#GO_0099860"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GO_0099995"/>
+        <NamedIndividual IRI="#GO_0099861"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#GO_0099867"/>
         <NamedIndividual IRI="#GO_0099970"/>
@@ -3671,6 +4965,16 @@ once a week</Literal>
         <DataProperty IRI="#GO_0099867"/>
         <NamedIndividual IRI="#GO_0099979"/>
         <Literal>15 mg twice a day</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GO_0099949"/>
+        <NamedIndividual IRI="#GO_0099992"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">38.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GO_0099867"/>
+        <NamedIndividual IRI="#GO_0100004"/>
+        <Literal>15mg once a day</Literal>
     </DataPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#GO_0099951"/>
@@ -3695,6 +4999,18 @@ once a week</Literal>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#GO_0099976"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#GO_0099978"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#GO_0099997"/>
+        <ObjectProperty IRI="#GO_0099996"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#GO_0100000"/>
+        <ObjectProperty IRI="#GO_0099996"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
         <ObjectProperty IRI="#GO_0099530"/>
@@ -3742,7 +5058,11 @@ once a week</Literal>
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="#GO_0099950"/>
-        <ObjectProperty IRI="#GO_0099960"/>
+        <ObjectProperty IRI="#GO_0099998"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#GO_0099996"/>
+        <ObjectProperty IRI="#GO_0099999"/>
     </InverseObjectProperties>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#GO_0099530"/>
@@ -3795,10 +5115,6 @@ once a week</Literal>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#GO_0099636"/>
         <Class IRI="#GO_0099914"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#GO_0099640"/>
-        <Class IRI="#GO_0099544"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#GO_0099640"/>
@@ -3869,8 +5185,36 @@ once a week</Literal>
         <Class IRI="#GO_0099538"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#GO_0099950"/>
+        <ObjectProperty IRI="#GO_0099916"/>
         <Class IRI="#GO_0099560"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GO_0099922"/>
+        <Class IRI="#GO_0099560"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GO_0099950"/>
+        <Class IRI="#GO_0099561"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GO_0099951"/>
+        <Class IRI="#GO_0099561"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GO_0099952"/>
+        <Class IRI="#GO_0099561"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GO_0099955"/>
+        <Class IRI="#GO_0099561"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GO_0099956"/>
+        <Class IRI="#GO_0099561"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GO_0099964"/>
+        <Class IRI="#GO_0099561"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#GO_0099976"/>
@@ -3882,7 +5226,23 @@ once a week</Literal>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#GO_0099978"/>
+        <Class IRI="#GO_0099544"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GO_0099978"/>
         <Class IRI="#GO_0099545"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GO_0099996"/>
+        <Class IRI="#GO_0099560"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GO_0099997"/>
+        <Class IRI="#GO_0099560"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GO_0100000"/>
+        <Class IRI="#GO_0099560"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#GO_0099530"/>
@@ -3939,10 +5299,6 @@ once a week</Literal>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#GO_0099640"/>
         <Class IRI="#GO_0099535"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#GO_0099642"/>
-        <Class IRI="#GO_0099544"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#GO_0099642"/>
@@ -4009,7 +5365,19 @@ once a week</Literal>
         <Class IRI="#GO_0099500"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099916"/>
+        <Class IRI="#GO_0099500"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099922"/>
+        <Class IRI="#GO_0099544"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#GO_0099950"/>
+        <Class IRI="#GO_0099544"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099951"/>
         <Class IRI="#GO_0099544"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
@@ -4018,7 +5386,15 @@ once a week</Literal>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#GO_0099952"/>
+        <Class IRI="#GO_0099544"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099952"/>
         <Class IRI="#GO_0099545"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099955"/>
+        <Class IRI="#GO_0099544"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#GO_0099955"/>
@@ -4026,7 +5402,15 @@ once a week</Literal>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#GO_0099956"/>
+        <Class IRI="#GO_0099544"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099956"/>
         <Class IRI="#GO_0099547"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099964"/>
+        <Class IRI="#GO_0099544"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#GO_0099964"/>
@@ -4044,6 +5428,22 @@ once a week</Literal>
         <ObjectProperty IRI="#GO_0099978"/>
         <Class IRI="#GO_0099892"/>
     </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099996"/>
+        <Class IRI="#GO_0099544"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099997"/>
+        <Class IRI="#GO_0099544"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099997"/>
+        <Class IRI="#GO_0099549"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0100000"/>
+        <Class IRI="#GO_0099544"/>
+    </ObjectPropertyRange>
     <DataPropertyDomain>
         <DataProperty IRI="#GO_0099865"/>
         <Class IRI="#GO_0099560"/>
@@ -4058,15 +5458,15 @@ once a week</Literal>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#GO_0099871"/>
-        <Class IRI="#GO_0099500"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#GO_0099871"/>
         <Class IRI="#GO_0099539"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#GO_0099949"/>
         <Class IRI="#GO_0099975"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#GO_0099995"/>
+        <Class IRI="#GO_0099500"/>
     </DataPropertyDomain>
     <DataPropertyRange>
         <DataProperty IRI="#GO_0099865"/>
@@ -4088,6 +5488,55 @@ once a week</Literal>
         <DataProperty IRI="#GO_0099949"/>
         <Datatype abbreviatedIRI="xsd:float"/>
     </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#GO_0099995"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S1</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#GO_0099500"/>
+                <Variable IRI="#d"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#GO_0099623"/>
+                <Variable IRI="#d"/>
+                <Variable IRI="#s"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#GO_0099914"/>
+                <Variable IRI="#s"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#GO_0099846"/>
+                <Variable IRI="#d"/>
+                <Variable IRI="#h"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#GO_0099538"/>
+                <Variable IRI="#h"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#GO_0099622"/>
+                <Variable IRI="#h"/>
+                <Variable IRI="#s"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
         <IRI>#GO_0099500</IRI>
@@ -8797,6 +10246,146 @@ once a week</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#GO_0099988</IRI>
         <Literal>prescripted_treatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0099989</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0099989</IRI>
+        <Literal>RI_MI_96_08_00001</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0099991</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0099991</IRI>
+        <Literal>temperature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0099992</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0099992</IRI>
+        <Literal>00000001</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0099993</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0099993</IRI>
+        <Literal>temperature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0099995</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0099995</IRI>
+        <Literal>can_work</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0099996</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0099996</IRI>
+        <Literal>assigned_treatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0099997</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0099997</IRI>
+        <Literal>surgery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0099998</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0099998</IRI>
+        <Literal>is_indicated_for</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0099999</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0099999</IRI>
+        <Literal>is_assigned_for</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0100000</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0100000</IRI>
+        <Literal>therapy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0100001</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0100001</IRI>
+        <Literal>enalapril</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0100002</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0100002</IRI>
+        <Literal>Vasotec</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0100003</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0100003</IRI>
+        <Literal>Epaned</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0100004</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0100004</IRI>
+        <Literal>enalapril_treatment</Literal>
     </AnnotationAssertion>
 </Ontology>
 
