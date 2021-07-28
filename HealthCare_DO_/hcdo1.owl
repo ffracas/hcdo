@@ -376,6 +376,9 @@
         <Class IRI="#GO_0099920"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#GO_0099922"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#GO_0099931"/>
     </Declaration>
     <Declaration>
@@ -401,6 +404,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#GO_0100020"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GO_0100021"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#GO_0099530"/>
@@ -542,6 +548,12 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#GO_0100000"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GO_0100022"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GO_0100024"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#GO_0099865"/>
@@ -1579,6 +1591,33 @@
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
     </Declaration>
     <EquivalentClasses>
+        <Class IRI="#GO_0099922"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#GO_0099539"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GO_0099530"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#GO_0099537"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#GO_0099543"/>
+                        <ObjectIntersectionOf>
+                            <Class IRI="#GO_0099560"/>
+                            <DataSomeValuesFrom>
+                                <DataProperty IRI="#GO_0099865"/>
+                                <DatatypeRestriction>
+                                    <Datatype abbreviatedIRI="xsd:dateTime"/>
+                                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-07-01T00:00:00</Literal>
+                                    </FacetRestriction>
+                                </DatatypeRestriction>
+                            </DataSomeValuesFrom>
+                        </ObjectIntersectionOf>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
         <Class IRI="#GO_0100020"/>
         <ObjectIntersectionOf>
             <Class IRI="#GO_0099538"/>
@@ -1592,6 +1631,16 @@
                     </ObjectSomeValuesFrom>
                 </ObjectIntersectionOf>
             </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#GO_0100021"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#GO_0099500"/>
+            <DataHasValue>
+                <DataProperty IRI="#GO_0099995"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+            </DataHasValue>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <SubClassOf>
@@ -5076,6 +5125,16 @@
         <NamedIndividual IRI="#GO_0099969"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099997"/>
+        <NamedIndividual IRI="#GO_0099924"/>
+        <NamedIndividual IRI="#GO_0099969"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099530"/>
+        <NamedIndividual IRI="#GO_0099925"/>
+        <NamedIndividual IRI="#GO_0099960"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099636"/>
         <NamedIndividual IRI="#GO_0099926"/>
         <NamedIndividual IRI="#GO_0099860"/>
@@ -5101,6 +5160,11 @@
         <NamedIndividual IRI="#GO_0099863"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099530"/>
+        <NamedIndividual IRI="#GO_0099937"/>
+        <NamedIndividual IRI="#GO_0099960"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099636"/>
         <NamedIndividual IRI="#GO_0099953"/>
         <NamedIndividual IRI="#GO_0099859"/>
@@ -5109,6 +5173,16 @@
         <ObjectProperty IRI="#GO_0099837"/>
         <NamedIndividual IRI="#GO_0099953"/>
         <NamedIndividual IRI="#GO_0099887"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099530"/>
+        <NamedIndividual IRI="#GO_0099954"/>
+        <NamedIndividual IRI="#GO_0099968"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099530"/>
+        <NamedIndividual IRI="#GO_0099957"/>
+        <NamedIndividual IRI="#GO_0099971"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099530"/>
@@ -5750,6 +5824,10 @@ once a week</Literal>
         <ObjectProperty IRI="#GO_0099636"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
+        <ObjectProperty IRI="#GO_0099629"/>
+        <ObjectProperty IRI="#GO_0100024"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
         <ObjectProperty IRI="#GO_0099640"/>
         <ObjectProperty IRI="#GO_0099642"/>
     </InverseObjectProperties>
@@ -5764,6 +5842,10 @@ once a week</Literal>
     <InverseObjectProperties>
         <ObjectProperty IRI="#GO_0099950"/>
         <ObjectProperty IRI="#GO_0099998"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#GO_0099978"/>
+        <ObjectProperty IRI="#GO_0100022"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="#GO_0099996"/>
@@ -10669,6 +10751,16 @@ once a week</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0099922</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0099922</IRI>
+        <Literal>hospetalized</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
         <IRI>#GO_0099923</IRI>
         <Literal>ffracas</Literal>
     </AnnotationAssertion>
@@ -11415,7 +11507,7 @@ once a week</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#GO_0099997</IRI>
-        <Literal>surgery</Literal>
+        <Literal>assigned_surgery</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -11445,7 +11537,7 @@ once a week</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#GO_0100000</IRI>
-        <Literal>therapy</Literal>
+        <Literal>assigned_therapy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -11646,6 +11738,36 @@ once a week</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#GO_0100020</IRI>
         <Literal>hospital_specialized</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0100021</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0100021</IRI>
+        <Literal>retired_doctor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0100022</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0100022</IRI>
+        <Literal>used_for</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0100024</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0100024</IRI>
+        <Literal>was_diagnosed_for</Literal>
     </AnnotationAssertion>
 </Ontology>
 
