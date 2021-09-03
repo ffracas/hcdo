@@ -11,6 +11,7 @@
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="hcdo" IRI="http://www.semanticweb.org/fra/ontologies/2021/6/hcdo1"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
         <Class IRI="#GO_0099500"/>
@@ -578,6 +579,9 @@
     </Declaration>
     <Declaration>
         <DataProperty IRI="#GO_0100007"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#GO_0100025"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#GO_0099531"/>
@@ -2228,6 +2232,33 @@
         <Class IRI="#GO_0099892"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#GO_0099922"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#GO_0099539"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GO_0099530"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#GO_0099537"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#GO_0099543"/>
+                        <ObjectIntersectionOf>
+                            <Class IRI="#GO_0099560"/>
+                            <DataSomeValuesFrom>
+                                <DataProperty IRI="#GO_0099865"/>
+                                <DatatypeRestriction>
+                                    <Datatype abbreviatedIRI="xsd:dateTime"/>
+                                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-07-01T00:00:00</Literal>
+                                    </FacetRestriction>
+                                </DatatypeRestriction>
+                            </DataSomeValuesFrom>
+                        </ObjectIntersectionOf>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#GO_0099931"/>
         <Class IRI="#GO_0099561"/>
     </SubClassOf>
@@ -2262,6 +2293,202 @@
     <SubClassOf>
         <Class IRI="#GO_0100001"/>
         <Class IRI="#GO_0099892"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0100020"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#GO_0099538"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GO_0099847"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#GO_0099500"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#GO_0099623"/>
+                        <Class IRI="#GO_0099914"/>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GO_0100021"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#GO_0099500"/>
+            <DataHasValue>
+                <DataProperty IRI="#GO_0099995"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#GO_0099500"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GO_0099623"/>
+                <Class IRI="#GO_0099914"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class IRI="#GO_0099500"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#GO_0099500"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GO_0099623"/>
+                <Class IRI="#GO_0099914"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#GO_0099623"/>
+            <Class IRI="#GO_0099914"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#GO_0099500"/>
+            <DataHasValue>
+                <DataProperty IRI="#GO_0099995"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+        <Class IRI="#GO_0100021"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#GO_0099537"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GO_0099543"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#GO_0099560"/>
+                    <DataSomeValuesFrom>
+                        <DataProperty IRI="#GO_0099865"/>
+                        <DatatypeRestriction>
+                            <Datatype abbreviatedIRI="xsd:dateTime"/>
+                            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-07-01T00:00:00</Literal>
+                            </FacetRestriction>
+                        </DatatypeRestriction>
+                    </DataSomeValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class IRI="#GO_0099537"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#GO_0099537"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GO_0099543"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#GO_0099560"/>
+                    <DataSomeValuesFrom>
+                        <DataProperty IRI="#GO_0099865"/>
+                        <DatatypeRestriction>
+                            <Datatype abbreviatedIRI="xsd:dateTime"/>
+                            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-07-01T00:00:00</Literal>
+                            </FacetRestriction>
+                        </DatatypeRestriction>
+                    </DataSomeValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#GO_0099543"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#GO_0099560"/>
+                <DataSomeValuesFrom>
+                    <DataProperty IRI="#GO_0099865"/>
+                    <DatatypeRestriction>
+                        <Datatype abbreviatedIRI="xsd:dateTime"/>
+                        <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-07-01T00:00:00</Literal>
+                        </FacetRestriction>
+                    </DatatypeRestriction>
+                </DataSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#GO_0099538"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GO_0099847"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#GO_0099500"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#GO_0099623"/>
+                        <Class IRI="#GO_0099914"/>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class IRI="#GO_0100020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#GO_0099539"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#GO_0099530"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#GO_0099537"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#GO_0099543"/>
+                        <ObjectIntersectionOf>
+                            <Class IRI="#GO_0099560"/>
+                            <DataSomeValuesFrom>
+                                <DataProperty IRI="#GO_0099865"/>
+                                <DatatypeRestriction>
+                                    <Datatype abbreviatedIRI="xsd:dateTime"/>
+                                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-07-01T00:00:00</Literal>
+                                    </FacetRestriction>
+                                </DatatypeRestriction>
+                            </DataSomeValuesFrom>
+                        </ObjectIntersectionOf>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class IRI="#GO_0099922"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#GO_0099560"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#GO_0099865"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:dateTime"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-07-01T00:00:00</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class IRI="#GO_0099560"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#GO_0099560"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#GO_0099865"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:dateTime"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-07-01T00:00:00</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#GO_0099865"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:dateTime"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-07-01T00:00:00</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataSomeValuesFrom>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="#GO_0099500"/>
@@ -3750,7 +3977,21 @@
         <NamedIndividual IRI="#GO_0099856"/>
     </ClassAssertion>
     <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#GO_0099623"/>
+            <Class IRI="#GO_0099914"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GO_0099856"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099500"/>
+        <NamedIndividual IRI="#GO_0099857"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#GO_0099623"/>
+            <Class IRI="#GO_0099914"/>
+        </ObjectSomeValuesFrom>
         <NamedIndividual IRI="#GO_0099857"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3758,7 +3999,21 @@
         <NamedIndividual IRI="#GO_0099858"/>
     </ClassAssertion>
     <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#GO_0099623"/>
+            <Class IRI="#GO_0099914"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GO_0099858"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099500"/>
+        <NamedIndividual IRI="#GO_0099859"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#GO_0099623"/>
+            <Class IRI="#GO_0099914"/>
+        </ObjectSomeValuesFrom>
         <NamedIndividual IRI="#GO_0099859"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3766,7 +4021,21 @@
         <NamedIndividual IRI="#GO_0099860"/>
     </ClassAssertion>
     <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#GO_0099623"/>
+            <Class IRI="#GO_0099914"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GO_0099860"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099500"/>
+        <NamedIndividual IRI="#GO_0099861"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#GO_0099623"/>
+            <Class IRI="#GO_0099914"/>
+        </ObjectSomeValuesFrom>
         <NamedIndividual IRI="#GO_0099861"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -4402,6 +4671,10 @@
         <NamedIndividual IRI="#GO_0100006"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099544"/>
+        <NamedIndividual IRI="#GO_0100008"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099549"/>
         <NamedIndividual IRI="#GO_0100008"/>
     </ClassAssertion>
@@ -4414,8 +4687,16 @@
         <NamedIndividual IRI="#GO_0100010"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#GO_0099544"/>
+        <NamedIndividual IRI="#GO_0100011"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099545"/>
         <NamedIndividual IRI="#GO_0100011"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099544"/>
+        <NamedIndividual IRI="#GO_0100012"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#GO_0099545"/>
@@ -4426,11 +4707,32 @@
         <NamedIndividual IRI="#GO_0100013"/>
     </ClassAssertion>
     <ClassAssertion>
+        <DataHasValue>
+            <DataProperty IRI="#GO_0099995"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+        </DataHasValue>
+        <NamedIndividual IRI="#GO_0100013"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099500"/>
         <NamedIndividual IRI="#GO_0100014"/>
     </ClassAssertion>
     <ClassAssertion>
+        <DataHasValue>
+            <DataProperty IRI="#GO_0099995"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+        </DataHasValue>
+        <NamedIndividual IRI="#GO_0100014"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GO_0099500"/>
+        <NamedIndividual IRI="#GO_0100015"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <DataHasValue>
+            <DataProperty IRI="#GO_0099995"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+        </DataHasValue>
         <NamedIndividual IRI="#GO_0100015"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -4518,6 +4820,16 @@
         <ObjectProperty IRI="#GO_0099712"/>
         <NamedIndividual IRI="#GO_0099617"/>
         <NamedIndividual IRI="#GO_0099814"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0100024"/>
+        <NamedIndividual IRI="#GO_0099626"/>
+        <NamedIndividual IRI="#GO_0100016"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0100024"/>
+        <NamedIndividual IRI="#GO_0099626"/>
+        <NamedIndividual IRI="#GO_0100017"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099686"/>
@@ -4643,6 +4955,16 @@
         <ObjectProperty IRI="#GO_0099712"/>
         <NamedIndividual IRI="#GO_0099664"/>
         <NamedIndividual IRI="#GO_0099813"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0100024"/>
+        <NamedIndividual IRI="#GO_0099664"/>
+        <NamedIndividual IRI="#GO_0100010"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0100024"/>
+        <NamedIndividual IRI="#GO_0099664"/>
+        <NamedIndividual IRI="#GO_0100019"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099686"/>
@@ -4825,6 +5147,21 @@
         <NamedIndividual IRI="#GO_0099862"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099612"/>
+        <NamedIndividual IRI="#GO_0099858"/>
+        <NamedIndividual IRI="#GO_0100005"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099612"/>
+        <NamedIndividual IRI="#GO_0099858"/>
+        <NamedIndividual IRI="#GO_0100006"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099612"/>
+        <NamedIndividual IRI="#GO_0099858"/>
+        <NamedIndividual IRI="#GO_0100009"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099623"/>
         <NamedIndividual IRI="#GO_0099858"/>
         <NamedIndividual IRI="#GO_0099928"/>
@@ -4845,9 +5182,34 @@
         <NamedIndividual IRI="#GO_0099887"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099612"/>
+        <NamedIndividual IRI="#GO_0099860"/>
+        <NamedIndividual IRI="#GO_0099989"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099612"/>
+        <NamedIndividual IRI="#GO_0099860"/>
+        <NamedIndividual IRI="#GO_0100010"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099612"/>
+        <NamedIndividual IRI="#GO_0099860"/>
+        <NamedIndividual IRI="#GO_0100019"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099623"/>
         <NamedIndividual IRI="#GO_0099860"/>
         <NamedIndividual IRI="#GO_0099926"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099612"/>
+        <NamedIndividual IRI="#GO_0099861"/>
+        <NamedIndividual IRI="#GO_0100016"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099612"/>
+        <NamedIndividual IRI="#GO_0099861"/>
+        <NamedIndividual IRI="#GO_0100017"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099623"/>
@@ -4985,6 +5347,11 @@
         <NamedIndividual IRI="#GO_0099969"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0100024"/>
+        <NamedIndividual IRI="#GO_0099874"/>
+        <NamedIndividual IRI="#GO_0099924"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099620"/>
         <NamedIndividual IRI="#GO_0099887"/>
         <NamedIndividual IRI="#GO_0099729"/>
@@ -5063,6 +5430,36 @@
         <ObjectProperty IRI="#GO_0099833"/>
         <NamedIndividual IRI="#GO_0099896"/>
         <NamedIndividual IRI="#GO_0099632"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0100024"/>
+        <NamedIndividual IRI="#GO_0099896"/>
+        <NamedIndividual IRI="#GO_0099817"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0100024"/>
+        <NamedIndividual IRI="#GO_0099896"/>
+        <NamedIndividual IRI="#GO_0099918"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0100022"/>
+        <NamedIndividual IRI="#GO_0099905"/>
+        <NamedIndividual IRI="#GO_0099979"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0100022"/>
+        <NamedIndividual IRI="#GO_0099906"/>
+        <NamedIndividual IRI="#GO_0099973"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0100022"/>
+        <NamedIndividual IRI="#GO_0099907"/>
+        <NamedIndividual IRI="#GO_0100011"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0100022"/>
+        <NamedIndividual IRI="#GO_0099908"/>
+        <NamedIndividual IRI="#GO_0100012"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099629"/>
@@ -5160,6 +5557,21 @@
         <NamedIndividual IRI="#GO_0099863"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0100024"/>
+        <NamedIndividual IRI="#GO_0099935"/>
+        <NamedIndividual IRI="#GO_0100005"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0100024"/>
+        <NamedIndividual IRI="#GO_0099935"/>
+        <NamedIndividual IRI="#GO_0100006"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0100024"/>
+        <NamedIndividual IRI="#GO_0099935"/>
+        <NamedIndividual IRI="#GO_0100009"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099530"/>
         <NamedIndividual IRI="#GO_0099937"/>
         <NamedIndividual IRI="#GO_0099960"/>
@@ -5185,6 +5597,16 @@
         <NamedIndividual IRI="#GO_0099971"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099543"/>
+        <NamedIndividual IRI="#GO_0099958"/>
+        <NamedIndividual IRI="#GO_0099988"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099543"/>
+        <NamedIndividual IRI="#GO_0099958"/>
+        <NamedIndividual IRI="#GO_0100005"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099530"/>
         <NamedIndividual IRI="#GO_0099959"/>
         <NamedIndividual IRI="#GO_0099982"/>
@@ -5193,6 +5615,26 @@
         <ObjectProperty IRI="#GO_0099541"/>
         <NamedIndividual IRI="#GO_0099959"/>
         <NamedIndividual IRI="#GO_0099785"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099543"/>
+        <NamedIndividual IRI="#GO_0099960"/>
+        <NamedIndividual IRI="#GO_0099990"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099543"/>
+        <NamedIndividual IRI="#GO_0099960"/>
+        <NamedIndividual IRI="#GO_0100006"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099764"/>
+        <NamedIndividual IRI="#GO_0099960"/>
+        <NamedIndividual IRI="#GO_0099925"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099764"/>
+        <NamedIndividual IRI="#GO_0099960"/>
+        <NamedIndividual IRI="#GO_0099937"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099530"/>
@@ -5275,6 +5717,21 @@
         <NamedIndividual IRI="#GO_0099835"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099543"/>
+        <NamedIndividual IRI="#GO_0099968"/>
+        <NamedIndividual IRI="#GO_0099993"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099543"/>
+        <NamedIndividual IRI="#GO_0099968"/>
+        <NamedIndividual IRI="#GO_0100009"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099764"/>
+        <NamedIndividual IRI="#GO_0099968"/>
+        <NamedIndividual IRI="#GO_0099954"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099916"/>
         <NamedIndividual IRI="#GO_0099969"/>
         <NamedIndividual IRI="#GO_0099857"/>
@@ -5290,9 +5747,49 @@
         <NamedIndividual IRI="#GO_0099924"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099543"/>
+        <NamedIndividual IRI="#GO_0099971"/>
+        <NamedIndividual IRI="#GO_0099994"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099543"/>
+        <NamedIndividual IRI="#GO_0099971"/>
+        <NamedIndividual IRI="#GO_0100010"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099764"/>
+        <NamedIndividual IRI="#GO_0099971"/>
+        <NamedIndividual IRI="#GO_0099957"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099916"/>
+        <NamedIndividual IRI="#GO_0099973"/>
+        <NamedIndividual IRI="#GO_0099861"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099978"/>
         <NamedIndividual IRI="#GO_0099973"/>
         <NamedIndividual IRI="#GO_0099906"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099999"/>
+        <NamedIndividual IRI="#GO_0099973"/>
+        <NamedIndividual IRI="#GO_0100016"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099999"/>
+        <NamedIndividual IRI="#GO_0099973"/>
+        <NamedIndividual IRI="#GO_0100017"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099916"/>
+        <NamedIndividual IRI="#GO_0099974"/>
+        <NamedIndividual IRI="#GO_0099858"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099999"/>
+        <NamedIndividual IRI="#GO_0099974"/>
+        <NamedIndividual IRI="#GO_0100009"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099978"/>
@@ -5308,6 +5805,11 @@
         <ObjectProperty IRI="#GO_0099764"/>
         <NamedIndividual IRI="#GO_0099981"/>
         <NamedIndividual IRI="#GO_0099966"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099543"/>
+        <NamedIndividual IRI="#GO_0099982"/>
+        <NamedIndividual IRI="#GO_0100016"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099764"/>
@@ -5340,6 +5842,16 @@
         <NamedIndividual IRI="#GO_0099962"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099543"/>
+        <NamedIndividual IRI="#GO_0099985"/>
+        <NamedIndividual IRI="#GO_0100017"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099543"/>
+        <NamedIndividual IRI="#GO_0099985"/>
+        <NamedIndividual IRI="#GO_0100018"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099764"/>
         <NamedIndividual IRI="#GO_0099985"/>
         <NamedIndividual IRI="#GO_0099838"/>
@@ -5353,6 +5865,11 @@
         <ObjectProperty IRI="#GO_0099543"/>
         <NamedIndividual IRI="#GO_0099986"/>
         <NamedIndividual IRI="#GO_0099918"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099543"/>
+        <NamedIndividual IRI="#GO_0099986"/>
+        <NamedIndividual IRI="#GO_0100019"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099764"/>
@@ -5425,6 +5942,11 @@
         <NamedIndividual IRI="#GO_0099971"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0100022"/>
+        <NamedIndividual IRI="#GO_0100003"/>
+        <NamedIndividual IRI="#GO_0100004"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099978"/>
         <NamedIndividual IRI="#GO_0100004"/>
         <NamedIndividual IRI="#GO_0100003"/>
@@ -5450,6 +5972,11 @@
         <NamedIndividual IRI="#GO_0099958"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099996"/>
+        <NamedIndividual IRI="#GO_0100005"/>
+        <NamedIndividual IRI="#GO_0100008"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099997"/>
         <NamedIndividual IRI="#GO_0100005"/>
         <NamedIndividual IRI="#GO_0100008"/>
@@ -5470,9 +5997,29 @@
         <NamedIndividual IRI="#GO_0099960"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099996"/>
+        <NamedIndividual IRI="#GO_0100006"/>
+        <NamedIndividual IRI="#GO_0100008"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099997"/>
         <NamedIndividual IRI="#GO_0100006"/>
         <NamedIndividual IRI="#GO_0100008"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099916"/>
+        <NamedIndividual IRI="#GO_0100008"/>
+        <NamedIndividual IRI="#GO_0099858"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099999"/>
+        <NamedIndividual IRI="#GO_0100008"/>
+        <NamedIndividual IRI="#GO_0100005"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099999"/>
+        <NamedIndividual IRI="#GO_0100008"/>
+        <NamedIndividual IRI="#GO_0100006"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099564"/>
@@ -5488,6 +6035,11 @@
         <ObjectProperty IRI="#GO_0099713"/>
         <NamedIndividual IRI="#GO_0100009"/>
         <NamedIndividual IRI="#GO_0099968"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099996"/>
+        <NamedIndividual IRI="#GO_0100009"/>
+        <NamedIndividual IRI="#GO_0099974"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0100000"/>
@@ -5510,9 +6062,19 @@
         <NamedIndividual IRI="#GO_0099971"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099996"/>
+        <NamedIndividual IRI="#GO_0100010"/>
+        <NamedIndividual IRI="#GO_0100012"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0100000"/>
         <NamedIndividual IRI="#GO_0100010"/>
         <NamedIndividual IRI="#GO_0100012"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099916"/>
+        <NamedIndividual IRI="#GO_0100011"/>
+        <NamedIndividual IRI="#GO_0099860"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099978"/>
@@ -5520,9 +6082,29 @@
         <NamedIndividual IRI="#GO_0099907"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099999"/>
+        <NamedIndividual IRI="#GO_0100011"/>
+        <NamedIndividual IRI="#GO_0099989"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099916"/>
+        <NamedIndividual IRI="#GO_0100012"/>
+        <NamedIndividual IRI="#GO_0099860"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099978"/>
         <NamedIndividual IRI="#GO_0100012"/>
         <NamedIndividual IRI="#GO_0099908"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099999"/>
+        <NamedIndividual IRI="#GO_0100012"/>
+        <NamedIndividual IRI="#GO_0100010"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099999"/>
+        <NamedIndividual IRI="#GO_0100012"/>
+        <NamedIndividual IRI="#GO_0100019"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099564"/>
@@ -5633,6 +6215,16 @@
         <DataProperty IRI="#GO_0099995"/>
         <NamedIndividual IRI="#GO_0099861"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GO_0100025"/>
+        <NamedIndividual IRI="#GO_0099863"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">210</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GO_0100025"/>
+        <NamedIndividual IRI="#GO_0099891"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#GO_0099919"/>
@@ -5851,6 +6443,9 @@ once a week</Literal>
         <ObjectProperty IRI="#GO_0099996"/>
         <ObjectProperty IRI="#GO_0099999"/>
     </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#GO_0099530"/>
+    </FunctionalObjectProperty>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#GO_0099530"/>
         <Class IRI="#GO_0099539"/>
@@ -6213,12 +6808,37 @@ once a week</Literal>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#GO_0099997"/>
+        <Class IRI="#GO_0099544"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GO_0099997"/>
         <Class IRI="#GO_0099549"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#GO_0100000"/>
         <Class IRI="#GO_0099544"/>
     </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#GO_0099865"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#GO_0099866"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#GO_0099867"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#GO_0099871"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#GO_0099919"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#GO_0099995"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#GO_0100007"/>
+    </FunctionalDataProperty>
     <DataPropertyDomain>
         <DataProperty IRI="#GO_0099865"/>
         <Class IRI="#GO_0099560"/>
@@ -6251,6 +6871,10 @@ once a week</Literal>
         <DataProperty IRI="#GO_0100007"/>
         <Class IRI="#GO_0099560"/>
     </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#GO_0100025"/>
+        <Class IRI="#GO_0099538"/>
+    </DataPropertyDomain>
     <DataPropertyRange>
         <DataProperty IRI="#GO_0099865"/>
         <Datatype abbreviatedIRI="xsd:dateTime"/>
@@ -6282,6 +6906,10 @@ once a week</Literal>
     <DataPropertyRange>
         <DataProperty IRI="#GO_0100007"/>
         <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#GO_0100025"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
     </DataPropertyRange>
     <DLSafeRule>
         <Annotation>
@@ -11768,6 +12396,16 @@ once a week</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#GO_0100024</IRI>
         <Literal>was_diagnosed_for</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0100025</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0100025</IRI>
+        <Literal>available_place</Literal>
     </AnnotationAssertion>
 </Ontology>
 
