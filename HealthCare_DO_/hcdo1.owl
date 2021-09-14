@@ -1589,6 +1589,9 @@
         <NamedIndividual IRI="#GO_0100019"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#GO_0100023"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
     </Declaration>
     <Declaration>
@@ -4751,6 +4754,10 @@
         <Class IRI="#GO_0099560"/>
         <NamedIndividual IRI="#GO_0100019"/>
     </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GO_0099538"/>
+        <NamedIndividual IRI="#GO_0100023"/>
+    </ClassAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#GO_0099530"/>
         <NamedIndividual IRI="#GO_0099531"/>
@@ -6171,6 +6178,11 @@
         <NamedIndividual IRI="#GO_0100019"/>
         <NamedIndividual IRI="#GO_0100012"/>
     </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GO_0099620"/>
+        <NamedIndividual IRI="#GO_0100023"/>
+        <NamedIndividual IRI="#GO_0099835"/>
+    </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#GO_0099919"/>
         <NamedIndividual IRI="#GO_0099674"/>
@@ -6346,6 +6358,11 @@ once a week</Literal>
         <DataProperty IRI="#GO_0099919"/>
         <NamedIndividual IRI="#GO_0100018"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GO_0100025"/>
+        <NamedIndividual IRI="#GO_0100023"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">120</Literal>
     </DataPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#GO_0099951"/>
@@ -12386,6 +12403,16 @@ once a week</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#GO_0100022</IRI>
         <Literal>used_for</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <IRI>#GO_0100023</IRI>
+        <Literal>ffracas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GO_0100023</IRI>
+        <Literal>Ospedale_san_paolo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
