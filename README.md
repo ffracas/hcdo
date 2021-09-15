@@ -1,4 +1,4 @@
 # hcdo
-health care disease ontology, version 1
-[IT]
+health care disease ontology, version 1  
+[IT]  
 HCDO è un’ontologia pensata per diventare la base di un sistema informativo sanitario regionale o nazionale con possibilità di scalabilità anche maggiori, infatti, l’idea dietro HCDO è di gestire completamente il reparto della sanità passando per gli ospedali, i medici e le cartelle cliniche dei pazienti e gestire i ricoveri distribuendoli nei vari ospedali o portandoli in ospedali specializzati in un determinato tipo di problematiche. Quindi, l’estensione presenta prima di tutto delle nuove classi per la gestione dei nuovi dati e definisce nuove proprietà per gestire le nuove relazioni tra i dati. Inoltre, vengono definite regole per permettere la diagnosi di malattie a partire dai sintomi, determinare i sintomi a partire dai risultati di un esame e la diagnosi di malattie genetiche.
